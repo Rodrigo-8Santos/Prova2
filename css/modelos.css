@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.contato {
+    background-color: #404040;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 60px;
+    border-bottom: 0px solid transparent;
+    box-sizing: border-box;
+}
+
+.contato p {
+    box-sizing: border-box;
+    text-align: right;
+    padding-left: 30px;
+    display: inline-block;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+}
+
+/*.background-header {
+    background: url(https://i.pinimg.com/originals/8b/52/4e/8b524ea28471ac145db7d576f788ef88.gif);
+    width: 100vw;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-header h1{
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px;
+}*/
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 12vw;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: gold;
+    color: red;
+}
+
+.modelos {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+
+.modelo1 {
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    max-width: 55vh;
+    max-height: 49vh;
+    min-height: 49vh;
+}
+
+.modelo1 img {
+    width: 25vw;
+    height: 25vh;
+
+}
+
+.modelo2 {
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    max-width: 55vh;
+    max-height: 49vh;
+    min-height: 49vh;
+}
+
+.modelo2 img {
+    width: 25vw;
+    height: 25vh;
+}
+
+.modelo3 {
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    max-width: 55vh;
+    max-height: 49vh;
+    min-height: 49vh;
+}
+
+.modelo3 img {
+    width: 25vw;
+    height: 25vh;
+}
+
+.modelos2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+
+.modelo4 {
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    max-width: 55vh;
+    max-height: 49vh;
+    min-height: 49vh;
+}
+
+.modelo4 img {
+    width: 25vw;
+    height: 25vh;
+}
+
+.modelo5 {
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    max-width: 55vh;
+    max-height: 49vh;
+    min-height: 49vh;
+}
+
+.modelo5 img {
+    width: 25vw;
+    height: 25vh;
+}
+
+.modelo6 {
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    max-width: 55vh;
+    max-height: 49vh;
+    min-height: 49vh;
+}
+
+.modelo6 img {
+    width: 25vw;
+    height: 25vh;
+}
+
+button {
+    margin-top: 10px;
+    position: relative;
+    height: 6vh;
+    width: 26vw;
+    position:absolute;
+}
+
+p {
+    font-size: 18px;
+    margin: 1px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
+
+footer{
+    background-color: #191f22;
+    width: 100%;
+    height: 30vh;
+}
+
+footer p{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 1em;
+    padding-left: 7.14%;
+    padding-right: 7.14%;
+    padding-top: 4.375em;
+}

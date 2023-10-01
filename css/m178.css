@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Header */
+.contato {
+    background-color: #404040;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 60px;
+    border-bottom: 0px solid transparent;
+    box-sizing: border-box;
+}
+
+.contato p {
+    box-sizing: border-box;
+    text-align: right;
+    padding-left: 30px;
+    display: inline-block;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 12vw;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: gold;
+    color: red;
+}
+
+/* Tabela de info */
+.main {
+    display: flex;
+}
+
+.carro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro img {
+    width: 90%;
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid 1px rgba(0, 0, 0, 0.441);
+}
+
+/* Seção de Informações 1 */
+.info1 {
+    padding-top: 15px;
+    text-align: center;
+    background-color: #404040;
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    padding-bottom: 20px;
+    color: #a6a6a6;
+}
+
+.info1 h1 {
+    font-size: 34px;
+}
+
+.info1 h2 {
+    font-size: 22px;
+}
+
+.info1 p {
+    font-size: 20px;
+}
+
+/* Seção de Informações 2 */
+.info2 {
+    padding: 30px;
+}
+
+.info2 h1 {
+    font-size: 32px;
+    padding: 2px;
+}
+
+.info2 h2 {
+    font-size: 20px;
+    padding: 2px;
+}
+
+.info2 p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* Texto na Seção de Informações 1 e 2 */
+.text-info1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.text-info1 h2 {
+    padding-top: 20px;
+}
+
+.text-info2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-info2 p {
+    padding-top: 0;
+    font-size: 16px;
+}
+
+/* Seção de Informações 3 */
+.info3 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.info3 p {
+    font-size: 15px;
+}
+
+/* Seção de Informações 4 */
+.info4 {
+    margin-top: 50px;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: disc;
+}
+
+ul li {
+    margin: 5px;
+}
+
+/* Seção de Informações 5 */
+.info5 {
+    margin-top: 50px;
+}
+
+.info5 p {
+    margin-top: 15px;
+}
+
+.info5 button {
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Botões */
+.button {
+    display: flex;
+}
+
+.button1 {
+    background-color: #3e6ae1;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+/* Seção de Compra */
+.buy {
+    margin-top: 50px;
+}
+
+.buy p {
+    font-size: 18px;
+}

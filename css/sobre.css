@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.contato {
+    background-color: #404040;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 60px;
+    border-bottom: 0px solid transparent;
+    box-sizing: border-box;
+}
+
+.contato p {
+    box-sizing: border-box;
+    text-align: right;
+    padding-left: 30px;
+    display: inline-block;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+}
+
+.background-header {
+    background: url(https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/07/WhatsApp-Image-2023-07-06-at-18.31.42-6.jpeg?w=876&h=484&crop=1);
+    width: 100vw;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 12vw;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: gold;
+    color: red;
+}
+
+.background-header h1 {
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    line-height: 1.05em;
+    margin-top: 30vh;
+}
+
+/*------------------------------------------------------------------------------main-----------------------------------------------------------------------------*/
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo h1 {
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding-top: 113px;
+}
+
+.container p {
+    max-height: 10px;
+    max-width: 75vw;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.text1 {
+    display: flex;
+}
+
+.box-sobre {
+    padding-top: 80px;
+    background: url(https://seminovos.unidas.com.br/blog/content/uploads/2020/02/escolhendo-o-modelo-de-carro-ideal-jovens-solteiros.jpg);
+    width: 25vw;
+    height: 25vh;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.box-sobre2 {
+    padding-top: 80px;
+    background: url(https://img.freepik.com/fotos-gratis/vendedor-feminino-em-uma-sala-de-exposicoes-de-carro-em-pe-ao-lado-do-carro_1303-22386.jpg);
+    width: 25vw;
+    height: 25vh;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.box-sobre3 {
+    padding-top: 80px;
+    background: url(https://img.freepik.com/fotos-gratis/mulher-ao-lado-de-seu-novo-carro-vermelho_1303-31822.jpg);
+    width: 25vw;
+    height: 25vh;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+/*-----------------------------------------------------------------------footer-----------------------------------------------------------------------------------*/
+
+.sobre {
+    margin-top: 110px;
+    background-color: #191f22;
+    width: 100%;
+    height: 30vh;
+    padding-bottom: 50px;
+}
+
+.sobre p {
+    color: white;
+    font-size: 16px;
+    padding-bottom: 1em;
+    padding-left: 7.14%;
+    padding-right: 7.14%;
+    padding-top: 4.375em;
+}
+
+.icon {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
